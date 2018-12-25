@@ -1,0 +1,34 @@
+
+WARNING:tensorflow:From /home/kk/tensorflow/tensorflow_cpu_3/venv/lib/python3.5/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: 
+maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/kk/tensorflow/tensorflow_cpu_3/venv/lib/python3.5/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:252: 
+_internal_retry.<locals>.wrap.<locals>.wrapped_fn (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use urllib or similar directly.
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+WARNING:tensorflow:From /home/kk/tensorflow/tensorflow_cpu_3/venv/lib/python3.5/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: 
+extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+WARNING:tensorflow:From /home/kk/tensorflow/tensorflow_cpu_3/venv/lib/python3.5/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: 
+extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/kk/tensorflow/tensorflow_cpu_3/venv/lib/python3.5/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: 
+dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/kk/tensorflow/tensorflow_cpu_3/venv/lib/python3.5/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: 
+DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+
