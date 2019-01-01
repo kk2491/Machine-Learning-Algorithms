@@ -26,7 +26,7 @@ mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 9 = [0,0,0,0,0,0,0,0,0,1]
 '''
 
-n_nodes_hl1 = 500
+n_nodes_hl1 = 1000
 n_nodes_hl2 = 500
 n_nodes_hl3 = 500
 

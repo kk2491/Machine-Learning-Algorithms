@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/kk/Github/Machine-Learning-Algorithms/Deep_Learning/epic_num_reader.model"
+all_model_checkpoint_paths: "/home/kk/Github/Machine-Learning-Algorithms/Deep_Learning/epic_num_reader.model"
