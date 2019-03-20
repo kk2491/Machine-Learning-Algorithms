@@ -8,12 +8,12 @@ c. Divide the data into train and test data set. <br />
 d. Check for multicollinearity. <br />
 e. Convert the categorical variables to numeric variables <br />
 f. Use feature selection techniques to select only the important features. <br />
-Forward selection <br />
-Backward selection <br />
-Hybrid feature selection <br />
-	Build linear regression model (without regularization) <br />
+   Forward selection <br />
+   Backward selection <br />
+   Hybrid feature selection <br />
+   Build linear regression model (without regularization) <br />
   
-	**Metrics to consider for evaluation** <br />
+**Metrics to consider for evaluation** <br />
 a. R square value – This is the proportion of the data explained by the model <br />
 b. Adjusted R square – This takes account of number of features <br />
 c. RMSE – Root Mean Squared Error – This gives the root of squared difference between the actual and predicted target variable <br />
