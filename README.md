@@ -5,7 +5,7 @@
 ### 2. **Data Understanding** ###
 **a. Data Collection (CSV file, logs, sensor data, data from SQL etc)** <br />
 **b. Data explore** <br />
-**c. Data quality - Analyze the data such that the sufficient information or data is available to build the model** <br />
+**c. Data quality** <br /> Analyze the data such that the sufficient information or data is available to build the model <br />
 
 ### 3. **Data Preparation** ###
 **a. Cleaning the data** <br />
