@@ -12,8 +12,7 @@ Execution Steps:
 
 2. Run ```deploy.py```, this will start web server and loads the model during the initialization. <br /> If you try to open the webserver URL you may encounter some error. <br /> So once server is started open a new terminal and run the below command to pass the data to webserver.
 
-    curl -X POST http://127.0.0.1:5000/predict --data '{ "feature_array
-" : [7.4,0.66,0,1.8,0.075,13,40,0.9978,3.51,0.56,9.4] }' --header "Content-Type: application/json"
+    ```curl -X POST http://127.0.0.1:5000/predict --data '{ "feature_array" : [7.4,0.66,0,1.8,0.075,13,40,0.9978,3.51,0.56,9.4] }' --header "Content-Type: application/json"```
 
 This predicts the output.
 
