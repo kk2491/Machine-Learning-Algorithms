@@ -1,0 +1,12 @@
+[program:flask_app.py]
+# Use Gunicorn and Supervisor to get the server up and running
+
+# Create a supervisor config at /etc/supervisor/config.d/your_config.conf
+
+command = gunicorn3 -w 4 --bind 10.0.0.1:5000 wsgi:app
+
+# The directory where the wsgi.py and the flask app resides
+
+directory = /home/kk/Github/Machine-Learning-Algorithms/How_to_deploy/Example_3/
+
+user = root
