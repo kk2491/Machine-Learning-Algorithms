@@ -1,6 +1,6 @@
 **Decision Tree Classification model (C5.0, C4.5 and CART)**
-
-Type		--	Supervised Learning
+```
+Type             --	Supervised Learning
 Target attribute -- 	Discrete Classification 
 Pre-processing 	
 a. Replace the null values and outliers will be handled by the tree structure
@@ -23,12 +23,12 @@ f. False positive rate = FP/(TN+FP)
 g. Precision = TP/(TP+FP)
 Decision trees are prone to over fit the training data
 Prune the tree appropriately and evaluate the model with the test data and compare the results.
-
-===================================================================================================
+```
+==============================================================================================
 
 **Decision Tree Regression model (CART)**
-
-Type 		--	Supervised Learning
+```
+Type             --	Supervised Learning
 Target Attribute -- 	Continuous variable
 
 Pre-processing
@@ -45,4 +45,4 @@ d. Mean absolute error
 e. Median absolute error
 f. AIC and BIC values
 Prune the tree appropriately and evaluate the model with the test data and compare the results.
-
+```
