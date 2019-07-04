@@ -10,7 +10,7 @@ Example_4 :
 
 
 
-Reference : 
+Reference : <br />
 https://machinelearningmastery.com/deploy-machine-learning-model-to-production/  ---  no practical example <br />
 https://medium.com/redbus-in/how-to-deploy-scikit-learn-ml-models-d390b4b8ce7a   ---  With example <br />
 https://github.com/orgesleka/webscikit  --- Try <br />
