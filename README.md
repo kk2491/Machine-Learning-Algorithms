@@ -1,3 +1,5 @@
+I would like to Thank [Sentdex](https://github.com/sentdex/) for excellent tutorials on Machine Learning Algorithms. 
+
 ## Machine Learning - Flowchart
 
 ### 1. **Understand the client requirement / Problem statement** ###
